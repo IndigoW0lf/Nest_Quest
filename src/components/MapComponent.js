@@ -15,7 +15,7 @@ function MapComponent() {
   const [cityData, setCityData] = useState([]);
 
   useEffect(() => {
-    fetch('https://where-to-live-kai-1f2c91c73d0c.herokuapp.com/api/data')
+    fetch('https://where-to-live-kai-1f2c91c73d0c.herokuapp.com/data')
       .then((response) => response.json())
       .then((data) => setCityData(data))
       .catch((error) => console.log(error));
