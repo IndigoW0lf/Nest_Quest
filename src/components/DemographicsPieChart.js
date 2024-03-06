@@ -69,7 +69,7 @@ const DemographicsPieCharts = ({ data }) => {
           alignItems: 'flex-start',
         }}
       >
-        {/* Legend with only border */}
+        {/* Legend with border */}
         <div
           style={{
             width: '15%',

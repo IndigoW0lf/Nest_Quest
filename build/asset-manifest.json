@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Nest_Quest/static/css/main.d90bb35b.css",
-    "main.js": "/Nest_Quest/static/js/main.576fe76e.js",
+    "main.js": "/Nest_Quest/static/js/main.0ce31033.js",
     "static/media/logo.png": "/Nest_Quest/static/media/logo.e761387159dfbb54495a.png",
     "index.html": "/Nest_Quest/index.html",
     "main.d90bb35b.css.map": "/Nest_Quest/static/css/main.d90bb35b.css.map",
-    "main.576fe76e.js.map": "/Nest_Quest/static/js/main.576fe76e.js.map"
+    "main.0ce31033.js.map": "/Nest_Quest/static/js/main.0ce31033.js.map"
   },
   "entrypoints": [
     "static/css/main.d90bb35b.css",
-    "static/js/main.576fe76e.js"
+    "static/js/main.0ce31033.js"
   ]
 }
