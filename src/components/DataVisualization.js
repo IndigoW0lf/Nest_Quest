@@ -49,7 +49,7 @@ function DataVisualization() {
   const [chartData, setChartData] = useState([]);
 
   useEffect(() => {
-    fetch('https://where-to-live-kai-1f2c91c73d0c.herokuapp.com/')
+    fetch('https://where-to-live-kai-1f2c91c73d0c.herokuapp.com/api/data')
       .then((response) => response.json())
       .then((fetchedData) => {
         const categoryOptions = Object.keys(fetchedData[0] ?? {})
@@ -62,7 +62,7 @@ function DataVisualization() {
         setCategories([
           { value: '', label: 'Select a value to compare' },
           ...categoryOptions,
-        ]); 
+        ]);
         setData(fetchedData);
       })
       .catch((error) => console.error('Error fetching data:', error));

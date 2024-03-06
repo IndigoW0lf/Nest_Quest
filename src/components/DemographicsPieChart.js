@@ -48,7 +48,7 @@ const DemographicsPieCharts = ({ data }) => {
 
   useEffect(() => {
     fetch(
-      'http://https://where-to-live-kai-1f2c91c73d0c.herokuapp.com/'
+      'https://where-to-live-kai-1f2c91c73d0c.herokuapp.com/api/data'
     )
       .then((response) => response.json())
       .then((jsonData) => setCitiesData(jsonData))
